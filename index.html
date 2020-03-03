@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+       <script src="java.js"></script>
+       <title>Sistemas Lineares</title>
+
+      
+   </head>
+   <body>
+       <form>
+       <div class="container">
+           <h1>Calculo de Simplex</h1>
+           <section></section>
+           <hr>
+           <div class="row">
+               <div class="col-md-6">
+                <label for="variavies">Quantidade de Variaveis</label>
+                <input type="number" name="qtd-var" id="qtd-var" class="form-control" value="" required>
+                <br>
+               </div>
+               <div class="col-md-6">
+                    <label for="restricoes">Quantidade de Restrições</label>
+                    <input type="number" name="qtd-res" id="qtd-res" class="form-control" value="" required>
+               </div>
+           </div>
+           
+                       <div class="row">
+					   <div class="col-md-12">
+                        <table id="add-var">
+                
+                        </table>
+                        <br>
+                        <br>
+						<table id="add-max">
+                
+                        </table>
+						<br>
+                            <table id="add-res"></table>
+                            
+                        </div>
+						</div>
+						
+						<div class="row">
+		   <div class="col-md-6">
+		   <br><br>
+                <table border = "1" id="table_calculo">
+				
+                </table>
+                        </div>
+                     </div>
+					 
+					 <br><br>
+				<table border = "1" id="table_respostas">
+				
+                </table>
+				<br><br>
+				<p id="result_var"> </P>
+						
+                   
+            <div class="row">
+		   <div class="col-md-12">
+		   <br><br>
+                <button type="submit" id="continuar" name="continuar" class="btn  btn-primary">Continuar</button>
+                        </div>
+                     </div>
+           </div>
+    </form>
+  
+ 
+   </body>
+</html>

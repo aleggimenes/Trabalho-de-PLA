@@ -1,0 +1,70 @@
+.form-control{
+    max-width:70px;
+    text-align: center;
+}
+section{
+    padding: 250px;
+    background-attachment: fixed;
+    border-radius: 40px;
+    background-size: cover;
+    box-shadow: 3px 4px 4px 4px black;
+    background-image: url('https://king.host/blog/wp-content/uploads/2018/03/cursos-de-programacao-kinghost.png');
+}
+#qtd-var{
+    font-size: 19pt;
+    font-weight: bolder;
+}
+#qtd-res{
+    font-size: 19pt;
+    font-weight: bolder;
+}
+h1{
+    font-size: 40pt;
+    text-shadow: black 1px 2px;
+}
+/*6c41c3
+b82601
+401170*/
+body{
+    font-size: 15pt;
+    color: black;
+    background-color: #cf3050;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bolder;
+}
+#continuar{
+    border-color: #6d41c7;
+    background-color: #6d41c7;
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 3px 4px 4px 4px black;
+    font-size: 19pt;
+    font-weight: bolder;
+}
+#continuar:hover{
+    left: .1em;
+    border-color: #1d1145;
+    background-color: #1d1145;
+}
+#continuar .selected{
+    background-color: #1d1145;
+}
+c{
+    text-align: center;
+}
+#panel, #flip {
+    padding: 5px;
+    background-color: white;
+    border: solid 1px #c3c3c3;
+  }
+  #flip {
+      text-align: center;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  } 
+  

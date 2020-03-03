@@ -1,0 +1,23 @@
+	O site foi criado por Bianca Alves Barbosa,Alessandro Gabriel Gimenes e
+Thiago Tersariol, com o intuito de resolver qualquer problema com o metodo
+ simplex, para abrir ele basta clicar no arquivo Index, e todo o algoritmo esta
+no arquivo java que pode ser aberto no bloco de notas.
+
+	No site você escolhe a quantidade de variaveis e a quantidade de 
+restrições e automaticamente o site gera a quantidade para você.
+	O problema que encontramos foi que não sabemos se a mesma regra se 
+aplica a todos e o algoritmo é muito complexo para a resolução de todos os 
+problemas, porém funciona 100% com o exercicio que testamos, então pedimos 
+para que use ele para comprovar nosso sistema.
+
+variaveis = 3
+restrições = 6
+
+max z= 20X1 + 15X2 + 18X3 
+
+5X1 +  3X2 + 5X3 => 400
+8X1 + 4X2 + 0X2 => 500
+2X1 + 5X2 + 3X3 => 300
+1X1 + 0X2 + 0X3 => 40
+0X1 + 1X2 + 0X3 => 50
+0X1 + 0X2 + 1X3 => 20
